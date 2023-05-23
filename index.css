@@ -2,3 +2,58 @@
 {
     color: red;
 }
+
+.header{
+justify-content: space-between;
+display: flex;
+border: 1px solid black;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+.search{
+    margin: 10px;
+}
+.nav-items ul 
+{
+    display: flex;
+    margin: 10px;
+}
+
+.nav-items ul li 
+{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.res-card{
+    /* background-color: #f0f0f0; */
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-card-logo
+{
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+}
+
+.res-card-info{
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
